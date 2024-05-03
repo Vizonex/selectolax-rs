@@ -1,0 +1,13 @@
+[package]
+name = "lexbor-sys"
+version = "0.0.1"
+edition = "2021"
+build = "build.rs"
+authors = ["Vizonex"]
+
+[dependencies]
+cty = "0.2.2"
+
+[build-dependencies]
+bindgen = "0.65.1"
+cc = "1.0.96"
